@@ -1,0 +1,2 @@
+Known Issues:
+- Possible race condition with server shutdown and character save

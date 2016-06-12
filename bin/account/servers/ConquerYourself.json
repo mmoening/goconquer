@@ -1,0 +1,6 @@
+{
+	"Name": "ConquerYourself",
+	"Host": "127.0.0.1",
+	"Port": 5816,
+	"Backend": "127.0.0.1:5817"
+}

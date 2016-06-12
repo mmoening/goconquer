@@ -1,0 +1,13 @@
+GoConquer, Conquer Online Private Server
+ Copyright(C) 2016 Gareth Warry, Matt Moening
+ Version 1.0, May 2016
+
+License Additions:
+ In addition to the Creative Commons Attribution NonCommercial (CC-BY-NC) License,
+
+ - No public derivatives may be distributed without the review and permission of 
+   the original authors of the software.
+
+ - Commercial use is defined as selling the server source code or binary executables.
+   Making profit by running the software with in-game paid services does not fall 
+   under commercial use, and is just a side effect of running the software.
