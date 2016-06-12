@@ -68,7 +68,15 @@ func (_ *characters) LoadIndex() bool {
 	
 	// Open the file and read all entries.
 	file, err := os.Open("./characters/index.csv")
-	if err != nil { fmt.Println(err); return false }
+	if err != nil { 
+	
+		// Attempt to create the file.
+		file, err = os.Create("./characters/index.csv")
+		if err != nil { 
+			fmt.Println("error: could not open character index.csv")
+			return false
+		}
+	}
 	defer file.Close()
 	reader := csv.NewReader(file)
 	records, _ := reader.ReadAll()
